@@ -1,0 +1,80 @@
+module.exports = [
+  {
+    collection: "portraiture",
+    filename: "photography-01.jpg",
+    title: "title for photo #01",
+    alt_text: "alt text for photo #01",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-02.jpg",
+    title: "title for photo #02",
+    alt_text: "alt text for photo #02",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-03.jpg",
+    title: "title for photo #03",
+    alt_text: "alt text for photo #03",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-04.jpg",
+    title: "title for photo #04",
+    alt_text: "alt text for photo #04",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-05.jpg",
+    title: "title for photo #05",
+    alt_text: "alt text for photo #05",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-06.jpg",
+    title: "title for photo #06",
+    alt_text: "alt text for photo #06",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-07.jpg",
+    title: "title for photo #07",
+    alt_text: "alt text for photo #07",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-08.jpg",
+    title: "title for photo #08",
+    alt_text: "alt text for photo #08",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-09.jpg",
+    title: "title for photo #09",
+    alt_text: "alt text for photo #09",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-10.jpg",
+    title: "title for photo #10",
+    alt_text: "alt text for photo #10",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-11.jpg",
+    title: "title for photo #11",
+    alt_text: "alt text for photo #11",
+  },
+  {
+    collection: "portraiture",
+    filename: "photography-12.jpg",
+    title: "title for photo #12",
+    alt_text: "alt text for photo #12",
+  },
+  {
+    collection: "marches",
+    filename: "photography-13.jpg",
+    title: "title for photo #13",
+    alt_text: "alt text for photo #13",
+  },
+];
