@@ -621,6 +621,10 @@ html {
   background-color: rgba(38, 38, 38, var(--tw-bg-opacity));
 }
 
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
 }
@@ -856,6 +860,18 @@ html {
     margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
+  .md\:inline{
+    display: inline;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
   .md\:h-1{
     height: 0.25rem;
   }
@@ -876,6 +892,10 @@ html {
 
   .md\:leading-snug{
     line-height: 1.375;
+  }
+
+  .md\:mr-0{
+    margin-right: 0px;
   }
 
   .md\:mb-8{
