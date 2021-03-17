@@ -568,42 +568,6 @@ select{
           color-adjust: exact;
 }
 
-html {
-  font-family: 'Manrope', sans-serif;
-}
-
-.bg-soft-beige {
-  background-color: #C7C7BE;
-}
-
-.bg-soft-brown {
-  background-color: #C9C0B5;
-}
-
-.bg-soft-gray {
-  background-color: #C4C4C4;
-}
-
-.bg-yellow-gray {
-  background-color: #C0C0BC;
-}
-
-.bg-medium-maroon {
-  background-color: #9D8F8F;
-}
-
-.bg-soft-maroon {
-  background-color: #B8AFAF;
-}
-
-.bg-medium-olive {
-  background-color: #AFB2A3;
-}
-
-.bg-soft-olive {
-  background-color: #C1C2B1;
-}
-
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -871,8 +835,33 @@ html {
   }
 }
 
+html {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: #C9C0B5;
+  transition: background-color 5s cubic-bezier(.24,.95,.44,1);
+}
+
 .strikethrough {
   text-decoration: line-through;
+}
+
+.bg-beige-soft {
+  background-color: #C7C7BE;
+}
+
+.bg-gray-soft {
+  background-color: #C4C4C4;
+}
+
+.bg-maroon-medium {
+  background-color: #9D8F8F;
+}
+
+.bg-olive-medium {
+  background-color: #AFB2A3;
 }
 
 /*! locomotive-scroll v4.1.0 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
@@ -962,6 +951,17 @@ html.has-scroll-dragging {
 [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
   right: auto;
   bottom: 0;
+}
+
+.scale-on-scroll {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: all 1.5s cubic-bezier(.41, .97, .44,1);
+}
+
+.scale-on-scroll.is-inview {
+  opacity: 1;
+  transform: scale(1);
 }
 
 @media (min-width: 640px){
