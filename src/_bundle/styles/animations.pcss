@@ -1,0 +1,10 @@
+.scale-on-scroll {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: all 1.5s cubic-bezier(.41, .97, .44,1);
+}
+
+.scale-on-scroll.is-inview {
+  opacity: 1;
+  transform: scale(1);
+}
