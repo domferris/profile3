@@ -38,7 +38,7 @@ scroll.on("scroll", (args) => {
   } else if (typeof args.currentElements["projects"] === "object") {
     const progress = args.currentElements["projects"].progress;
 
-    if (progress > 0.93) {
+    if (progress > 0.935) {
       // connect section downward scroll bg color change
       body.style.backgroundColor = yellowGray;
     } else {
