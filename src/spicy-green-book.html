@@ -3,8 +3,64 @@ layout: layout.liquid
 page_title: Spicy Green Book
 ---
 
-<section class="max-w-md min-h-screen p-4 sm:max-w-xl md:p-8 md:max-w-4xl lg:max-w-7xl lg:p-16">
-  <a class="items-center inline-block text-base transition duration-300 md:text-xl lg:text-2xl hover:opacity-60" href="/#projects">
-    &lt; View other projects
-  </a>
-</section>
+<div class="bg-true-gray-300" data-scroll-section>
+  <section class="max-w-md min-h-screen p-4 mx-auto sm:max-w-xl md:p-8 md:max-w-4xl lg:max-w-7xl lg:p-16">
+    <h2 class="text-4xl md:mb-2 xl:mb-5 md:text-6xl lg:text-7xl xl:text-8xl">
+      Spicy Green Book
+    </h2>
+  
+    <div class="flex flex-wrap items-center justify-between mb-2 border-green-300 md:mb-4">
+      <h4 class="text-lg whitespace-nowrap md:text-2xl lg:text-3xl xl:text-4xl">
+        Web application
+      </h4>
+  
+      <div class="whitespace-nowrap">
+        <a class="inline-block p-1 text-2xl transition duration-300 border-red-300 lg:text-4xl md:text-3xl hover:opacity-60 xl:5xl" href="https://spicygreenbook.org" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        
+        <a class="inline-block p-1 text-2xl transition duration-300 border-red-300 lg:text-4xl md:text-3xl hover:opacity-60 xl:5xl" href="https://github.com/spicygreenbook/greenbook-app" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  
+    <img class="mb-3 md:mb-6" src="../../img/projects/sgb-home.png" alt="Spicy Green Book homepage banner">
+    
+    <div class="space-y-4 md-space-y-8 lg:text-lg">
+      <p>
+        Spicy Green Book is a nonprofit organization that compiles a directory of Black owned businesses and performs marketing services for them of charge.
+      </p>
+  
+      <p>
+        I volunteer my time as a web developer assiting with frontend development. The application is built with React Native, Expo, and Next.js and is hosted/deployed on Vercel. Because my knowledge is limited in that space, I contribute where I can while actively learning the technologies.
+      </p>
+    </div>
+
+    <img class="mt-4 md:my-7" src="../../img/projects/sgb-directory.png" alt="Spicy Green Book's directory search">
+    
+    <div class="flex flex-col mt-10 md:mt-12 lg:mt-16">
+      <div class="flex">    
+        <h2 class="pr-4 ml-auto text-4xl md:text-6xl lg:text-7xl">
+          Related
+        </h2>
+
+        <span class="w-full my-auto md:h-1.5 h-1 lg:h-2 bg-true-gray-800"></span>
+      </div>
+  
+      <div class="flex flex-col my-4 md:space-y-1 md:my-5 lg:space-y-2 lg:my-6">
+        <a class="items-end inline mr-auto text-2xl transition duration-300 md:text-3xl sm:mr-0 sm:flex sm:justify-between lg:text-4xl hover:opacity-60" href="/page-bird">
+          Page Bird<span class="hidden text-base lg:text-lg sm:inline"> Web development</span>
+        </a>
+
+        <a class="items-end inline mr-auto text-2xl transition duration-300 md:text-3xl sm:mr-0 sm:flex sm:justify-between lg:text-4xl hover:opacity-60" href="/reele">
+          Reele<span class="hidden text-base lg:text-lg sm:inline"> Web application</span>
+        </a>
+      </div>
+      
+      <a class="inline-block mr-auto transition duration-300 md:text-xl lg:text-2xl hover:opacity-60" href="/#projects">
+        &lt; View other projects
+      </a>
+    </div>
+  </section>
+</div>

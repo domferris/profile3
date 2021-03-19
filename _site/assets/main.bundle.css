@@ -1206,6 +1206,10 @@ html.has-scroll-dragging {
     margin-right: 4rem;
   }
 
+  .md\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
   .md\:mb-4{
     margin-bottom: 1rem;
   }
@@ -1379,6 +1383,10 @@ html.has-scroll-dragging {
 
   .xl\:leading-normal{
     line-height: 1.5;
+  }
+
+  .xl\:mb-5{
+    margin-bottom: 1.25rem;
   }
 
   .xl\:mb-11{
