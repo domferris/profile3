@@ -1026,7 +1026,6 @@ html {
 }
 
 body {
-  background-color: #C9C0B5;
   transition: background-color 5s cubic-bezier(.24,.95,.44,1);
 }
 
@@ -1036,6 +1035,10 @@ body {
 
 .bg-beige-soft {
   background-color: #C7C7BE;
+}
+
+.bg-brown-soft {
+  background-color: #C9C0B5;
 }
 
 .bg-gray-soft {
