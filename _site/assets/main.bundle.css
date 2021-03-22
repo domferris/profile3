@@ -627,6 +627,11 @@ select{
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
+.bg-true-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 229, 229, var(--tw-bg-opacity));
+}
+
 .bg-true-gray-300{
   --tw-bg-opacity: 1;
   background-color: rgba(212, 212, 212, var(--tw-bg-opacity));
@@ -1353,10 +1358,6 @@ html.has-scroll-dragging {
 
   .md\:w-2\/4{
     width: 50%;
-  }
-
-  .md\:w-4\/6{
-    width: 66.666667%;
   }
 
   .md\:grid-cols-2{
