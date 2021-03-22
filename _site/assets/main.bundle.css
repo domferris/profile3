@@ -627,16 +627,6 @@ select{
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
-.bg-true-gray-200{
-  --tw-bg-opacity: 1;
-  background-color: rgba(229, 229, 229, var(--tw-bg-opacity));
-}
-
-.bg-true-gray-300{
-  --tw-bg-opacity: 1;
-  background-color: rgba(212, 212, 212, var(--tw-bg-opacity));
-}
-
 .bg-true-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgba(38, 38, 38, var(--tw-bg-opacity));
@@ -765,6 +755,11 @@ select{
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .my-auto{
@@ -1053,6 +1048,10 @@ body {
 
 .bg-olive-medium {
   background-color: #AFB2A3;
+}
+
+.max-h-92 {
+  max-height: 92vh;
 }
 
 /*! locomotive-scroll v4.1.0 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
