@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include partials/head.html %}
+<body class="bg-true-gray-300 text-true-gray-800{% if env.devMode %} debug-screens{% endif %}" data-scroll-container>
+  {{ content | safe }}
+</body>
+</html>
